@@ -16,3 +16,17 @@ for (let i=0;i<3;i++ ) {
 }
 
 console.log("</ul>")
+
+let student={id:1,name:"Engin"}
+console.log(student)
+
+function save(puan=10,ogrenci) {
+    console.log(ogrenci.name+":"+puan)
+    
+}
+save(undefined, student);
+
+
+let students2=[student,{id:2,name:"tuğrul"},"ankara",{id:"istanbul"}]
+
+console.log(students2)
